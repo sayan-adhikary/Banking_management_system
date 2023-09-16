@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class ATM{
     float Balance;
-    int PIN=1234;
+    int PIN=1235;
 
     public void checkpin(){
         System.out.println("Enter your pin: ");
@@ -12,7 +12,7 @@ class ATM{
             menu();
         }
         else{
-            System.out.println("Enter a valid pin: ");
+            System.out.println("Enter a valided pin: ");
         }
     }
 
